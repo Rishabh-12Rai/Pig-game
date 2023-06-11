@@ -6,7 +6,7 @@ var check=1;
 var victory="Player 1 Won!!"
 var victory2="Player 2 Won!!"
 
-let mySound = new Audio('bossa-in-my-heart-13187.mp3');
+let mySound = new Audio('/bossa-in-my-heart-13187.mp3');
 mySound.play()
 
 document.getElementsByClassName('player1')[0].classList.add("player--active");
